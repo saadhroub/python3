@@ -1,9 +1,15 @@
-a = 12
-b = 13.5
-c = "Hi"
+sunny = True
+passport = True
+money = int(input("Enter the money: "))
 
-# boolean
-x = True
-y = False
+if sunny and passport:
+    if money>=5000:
+        print("We will go Maldiv")
+    elif money>=2000:
+        print("We will go Antalya")
+    else:
+        print("We will go Aqaba")
+else:
+    print("Home Sweet Home")
 
-#conditions: 
+        
