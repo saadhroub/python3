@@ -52,7 +52,9 @@ menu = """
         -1 To exit from the program
 """
 
-for i in range(0,10000000):
+
+
+while True: 
     print(menu)
     choice = int(input())
     if choice==1:
